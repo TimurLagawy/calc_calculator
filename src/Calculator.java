@@ -10,6 +10,7 @@ public class Calculator {
         System.out.println("Enter an operator (+, -, *, /):");
         char operator = scanner.next().charAt(0);
 
+
         Calc calc;
         switch (operator) {
             case '+':
